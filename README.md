@@ -1,55 +1,15 @@
-# gakuen-imas-localify
+# gakuen-imas-localify-KR
 
-- 学园偶像大师 本地化插件
-- **开发中**
-
-
-
-# Usage
-
-- 这是一个 XPosed 插件，已 Root 用户可以使用 [LSPosed](https://github.com/LSPosed/LSPosed)，未 Root 用户可以使用 [LSPatch](https://github.com/LSPosed/LSPatch)。
+학원 아이돌마스터를 위한 Xposed Module 입니다.
+게임의 텍스트 랜더링 시스템에 연결하여, 해당 모듈이 작동하는 동안 지정된 문자열들을 교체하는 방식으로 작동됩니다.
+이 프로젝트는 [gakuen-imas-localify](https://github.com/chinosk6/gakuen-imas-localify)을 수정한 버전을 포함하고 있습니다.
+현재로서는 "안드로이드"에서만 사용 가능합니다.
 
 
+# 도움받은 프로젝트들
 
-# TODO
-
-- [x] 卡片信息、TIPS 等部分的文本 hook (`generic`)
-- [ ] 更多类型的文件替换
-- [ ] LSPatch 集成模式无效
-
-... and more
-
-
-
-# 本地化相关
-
-- 本地化文件放在 `app/src/main/assets/gakumas-local` 内
-- `version.txt` 记录翻译版本号。每次插件启动都会检查 `asset` 内的版本和本地的版本是否一致。不一致会覆盖文件到 `/data/data/com.bandainamcoent.idolmaster_gakuen/files/gakumas-lical/` 文件夹内
-- `local-files/localization.json` 为 localization 翻译
-- `local-files/generic.json` 为 localization 未覆盖部分的翻译
-- `local-files/genericTrans` 文件夹内所有 `.json` 文件作用同 `generic.json`，文件夹名/文件名可自定义，方便区分翻译内容
-- `local-files/resource` 文件夹存放资源文件，目前可以替换所有同名的 txt 文件。获取游戏原始资源可以查看：[gkmasToolkit](https://github.com/kishidanatsumi/gkmasToolkit)
-
-
-
-# 翻译仓库贡献列表
-
-<a href="https://github.com/chinosk6/GakumasTranslationData">
-  <img src="https://contrib.rocks/image?repo=chinosk6/GakumasTranslationData" />
-</a>
-
-
-
-# Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=chinosk6/gakuen-imas-localify&type=Date)](https://star-history.com/#chinosk6/gakuen-imas-localify&Date)
-
-
-
-# 特别鸣谢
-
+- [gakuen-imas-localify](https://github.com/chinosk6/gakuen-imas-localify)
+- [GakumasTranslationData](https://github.com/chinosk6/GakumasTranslationData)
 - [gkmasToolkit](https://github.com/kishidanatsumi/gkmasToolkit)
 - [UmaPyogin-Android](https://github.com/akemimadoka/UmaPyogin-Android)
 - [UnityResolve.hpp](https://github.com/issuimo/UnityResolve.hpp)
-- You
-
